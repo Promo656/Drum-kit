@@ -12,10 +12,23 @@ html,body{
     padding: 0;
 }
 
-.keys {
+.keys{
     display: flex;
-    flex: 1;
-    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.loops{
+    display: flex;
+
+}
+
+.sounds {
+    display: flex;
+    /*flex: 1;*/
+    /*min-height: 100vh;*/
     align-items: center;
     justify-content: center;
 }
